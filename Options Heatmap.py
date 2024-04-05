@@ -52,7 +52,7 @@ stocksymbol_label.grid(row=0, column=0)
 expiry_date_label=tkinter.Label(entry_frame, text="Expiry Date (YYYY-MM-DD):")
 expiry_date_label.grid(row=0, column=1)
 
-contracts_label=tkinter.Label(entry_frame, text="Number of Contracts (1 Contract = 100 Options):")
+contracts_label=tkinter.Label(entry_frame, text="Number of Contracts (1 Contract = 100 Shares):")
 contracts_label.grid(row=2, column=0)
 
 spacing_label=tkinter.Label(entry_frame, text="Axes Tick Spacing (Integer):")
